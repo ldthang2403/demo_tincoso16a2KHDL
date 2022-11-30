@@ -1,10 +1,5 @@
-a= int(input("nhap nam"))
-if  a%4=:0 and a%100!=0:
-     print("nam", a , "la nam nhuan")
-elif a%100=0
-   print("nam", a , "la nam nhuam" )
-else
-   print("nam", a , "khong la nam nhuan")
-
-
- 
+nam = int(input('Nhap nam nam: '))
+if (nam % 400 == 0) or ((nam % 4 == 0) and (nam % 100 != 0)):
+    print('Nam nhuan')
+else:
+    print('Nam khong nhuan')
